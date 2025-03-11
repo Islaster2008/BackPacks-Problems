@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BackPack's Issues</title>
+
+
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Scientific Article</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>    
+            <a href="#statistics">Statistics</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>     
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Us</h3>
+            <h1>Islam Yakubov <span>and</span> Altair Iskakov</h1>
+            <h3>And We're <span>Researchers</span></h3>
+            <p>And we're exploring Correlation between backpacks’ heaviness and students’ attitude</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="home.webp" alt="">
+        </div>
+    </section>
+
+    <selection class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Our Research</span></h2>
+            <h3>Do backpacks’ load and heaviness have any correlation with the general attitude of students? If so, in what way do they correlate?</h3>
+            <p>Through logical thoughts we got to our hypothesis, which states that backpacks heaviness has an inverse relation with the student’s general attitude.
+
+                We collected data for this research paper via offline surveys of high school students by asking them about the mass of their backpacks and overall attitude on the scale of 1 to 100 %, where 100 stands for feeling great and motivated concerning school tasks and 1 for having a bad mood, depression or burnout and merely or not motivated to execute tasks at all. In total, the number of surveyees reached 50. After transferring the accumulated data to MS Excel we used Python programming language along with Jupyter Notebook software to create a plot that would represent the interconnection between the stated parameters of backpacks’ heaviness(mass, kg) and attitude/mood(1–100 percentage scale).</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </selection>
+
+    <section class="statistics" id="statistics">
+        <h2 class="heading">My <span>Statistics</span></h2>
+
+        <div class="statistics-container">
+            <div class="statistics-box">
+                <i class='bx bx-code'></i>
+                <h3>Plot</h3>
+                <div class="statistics-img1">
+                    <img src="code.webp" alt="">
+                </div>
+                <p>After that, we calculate a regressive plot based on the MSE method. As we can see, as the weight of the backpack increases, the level of mental health decreases rapidly, which confirms our hypothesis. The average weight of load varies from 1 to 3 kg. In this case, the average mood of the students does not drop below 60%. But there were students carrying from 4 to 7 kg, which is why their indicators fell to 5%.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="statistics-box">
+                <i class='bx bx-task'></i>
+                <h3>Method</h3>
+                <div class="statistics-img2">
+                    <img src="graph.webp" alt="">
+                </div>
+                <div class="statistics-img2">
+                    <img src="MSE.webp" alt="">
+                </div>
+                <p>In order to find a correlation between two given parameters of attitude/mood and backpacks’ heaviness we needed to create a plot that would predict the dependency of mood on the backpack heaviness. We’ve decided to create a plot using Python programming language and a Jupyter Notebook software. Such thing could be done by importing numpy, pandas and matplotlib libraries.
+
+                    Another thing we needed to do was to apply MSE Linear Regression technology to create an expectation plot.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="statistics-box">
+                <i class='bx bx-table'></i>
+                <h3>Tables</h3>
+                <div class="statistics-img3">
+                    <img src="table1.webp" alt="">
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <selection class="solutions" id="solutions">
+        <h2 class="heading">Latest <span>Solutions</span></h2>
+
+        <div class="solutions-container">
+
+            <div class="solutions-box">
+                <img src="solutions1.webp" alt="">
+                <div class="solutions-layer">
+                    <h4>"The Chameleon Book"</h4>
+                    <p>Instead of multiple textbooks, the student carries one "smart" book with electronic pages from e-paper. It changes the content depending on the lesson schedule, uploading the necessary topics and exercises.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>    
+                </div>
+            </div>
+
+            <div class="solutions-box">
+                <img src="solutions2.webp" alt="">
+                <div class="solutions-layer">
+                    <h4>"Smart backpack with weight relief"</h4>
+                    <p>This is a backpack with built-in air cushions or shock-absorbing elements that evenly distribute the load on the back. It can have special straps with micro-motors that lift the backpack up slightly, reducing pressure on the shoulders.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>    
+                </div>
+            </div>
+
+            <div class="solutions-box">
+                <img src="solutions3.webp" alt="">
+                <div class="solutions-layer">
+                    <h4>"Mini robot assistant"</h4>
+                    <p>This is a small automated suitcase on wheels that follows the child, is controlled by voice or via an app. It takes on the weight of textbooks and other things, allowing the student to walk light.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>    
+                </div>
+            </div>
+        </div>
+    </selection>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
